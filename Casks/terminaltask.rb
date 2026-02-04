@@ -3,7 +3,7 @@ cask "terminaltask" do
   name "terminaltask"
   desc "TUI task manager built with Bubble Tea"
   homepage "https://github.com/jacobdanielrose/terminaltask"
-  version "0.2.1"
+  version "0.3.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,11 +14,11 @@ cask "terminaltask" do
   on_macos do
     on_intel do
       url "https://github.com/jacobdanielrose/terminaltask/releases/download/v#{version}/terminaltask_#{version}_darwin_amd64.tar.gz"
-      sha256 "bb837782a5bd2892888c4c1be7dd3a27e99dccee618f939fb249aab75bce902e"
+      sha256 "b192a18a902e403378a0c13ed388ab7e6ee7b66e6e003380ea38f7869b2326b6"
     end
     on_arm do
       url "https://github.com/jacobdanielrose/terminaltask/releases/download/v#{version}/terminaltask_#{version}_darwin_arm64.tar.gz"
-      sha256 "632f7dcb6e0a2428f14cdd08ec08f9fe447ebf50f0b97b4dbb6a29ebd0490e99"
+      sha256 "8fb41485389ebbd4c74dacb40094860e763662a15990afc32d6b1b106d279558"
     end
   end
 
